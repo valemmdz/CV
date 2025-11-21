@@ -1,490 +1,203 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valeria | Portafolio Digital</title>
+    <title>Valeria | Sistemas y Negocios Digitales</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
 
-    <header class="header">
-        <nav class="nav container">
-            <a href="#inicio" class="nav__logo">Valeria</a>
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#inicio" class="nav__link">Inicio</a></li>
-                <li class="nav__item"><a href="#sobre-mi" class="nav__link">Sobre mí</a></li>
-                <li class="nav__item"><a href="#educacion" class="nav__link">Educación</a></li>
-                <li class="nav__item"><a href="#habilidades" class="nav__link">Habilidades</a></li>
-                <li class="nav__item"><a href="#certificaciones" class="nav__link">Certificaciones</a></li>
-                <li class="nav__item"><a href="#proyectos" class="nav__link">Proyectos</a></li>
-                <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <nav>
+        <div class="logo">Valeria</div>
+        <ul class="nav-links">
+            <li><a href="#inicio" class="active">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#educacion">Formación</a></li>
+            <li><a href="#habilidades">Skills</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </nav>
 
     <main>
-        <section class="section hero" id="inicio">
-            <div class="container hero__content">
-                <p class="hero__greeting">¡Hola, soy</p>
-                <h1 class="hero__title">Valeria</h1>
-                <h2 class="hero__subtitle">Estudiante de Ingeniería en Sistemas y Negocios Digitales</h2>
-                <p class="hero__description">Apasionada por el **desarrollo web**, la **tecnología** y la intersección con los **negocios digitales**.</p>
-                <div class="hero__actions">
-                    <a href="#proyectos" class="btn btn--primary">Ver Proyectos</a>
-                    <a href="#contacto" class="btn btn--secondary">Contáctame</a>
-                </div>
+        <section id="inicio">
+            <div class="hero-content reveal">
+                <div class="profile-pic">
+                <img src="CVM.png" alt="Foto de Perfil de Valeria">
             </div>
-            <div class="hero__image-placeholder">
-                <i class="fa-solid fa-code fa-2xl"></i>
-            </div>
-        </section>
-
-        <section class="section about" id="sobre-mi">
-            <h2 class="section__title">Acerca de Mí 💡</h2>
-            <div class="container about__card card">
-                <div class="about__text">
-                    <p>Soy una estudiante con un enfoque **dual y estratégico**.</p>
-                    <p>Actualmente me encuentro en **tercer semestre de Ingeniería en Sistemas y Negocios Digitales** en el IEST Anáhuac, combinando mi interés por la tecnología (desarrollo web, bases de datos) con la visión de negocios. Mi formación previa como **Técnico en Recursos Humanos** me aporta una perspectiva valiosa sobre la gestión del talento y las dinámicas organizacionales.</p>
-                    <p>Mi objetivo es aplicar mis conocimientos de desarrollo web y sistemas para crear soluciones digitales que generen **valor e impacto en el mundo de los negocios**.</p>
+            <br>
+                <h2>Hola, soy </h2>
+                <h1>Valeria<br>Salas Mendez</h1>
+                <p>Estudiante de ingeniería en sistemas, interesada por el desarrollo web, y las redes de datos.</p>
+                <div>
+                    <a href="#proyectos" class="btn">Ver Portafolio</a>
+                    <a href="#contacto" class="btn btn-outline">Contáctame</a>
                 </div>
             </div>
         </section>
-
-        <section class="section education" id="educacion">
-            <h2 class="section__title">Mi Formación 🎓</h2>
-            <div class="container education__grid">
-                <div class="education__card card card--glow">
-                    <h3 class="education__title">Ingeniería en Sistemas y Negocios Digitales</h3>
-                    <p class="education__institution">IEST Anáhuac</p>
-                    <p class="education__period">2023 – Presente | 3er Semestre</p>
-                    <p class="education__detail">Promedio último semestre: **9.0**</p>
+    
+        <section id="sobre-mi">
+            <h2 class="section-title reveal"><span>Sobre mí</span></h2>
+            <div class="about-container reveal">
+                <div class="about-text">
+                    <p>Soy estudiante de <strong>Ingeniería en Sistemas y Negocios Digitales</strong>, combinando conocimientos técnicos de desarrollo de software con visión estratégica de negocios.</p>
+                    <p>Esta combinación única me permite entender tanto el código detrás de las aplicaciones como el impacto comercial de la tecnología.</p>
+                    <p>Actualmente cursando el quinto semestre con un enfoque en desarrollo Frontend, análisis de datos y redes.</p>
                 </div>
-                <div class="education__card card card--glow">
-                    <h3 class="education__title">Carrera Técnica en Recursos Humanos</h3>
-                    <p class="education__institution">Cbtis 103</p>
-                    <p class="education__period">2020 – 2023</p>
-                    <p class="education__detail">Promedio: **9.7**</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="section skills" id="habilidades">
-            <h2 class="section__title">Habilidades y Stack Tecnológico ⚙️</h2>
-            <div class="container skills__grid">
-                <div class="skill__card card card--hover">
-                    <i class="fa-solid fa-code skill__icon"></i>
-                    <h4 class="skill__title">Desarrollo Frontend</h4>
-                    <p class="skill__description">HTML, CSS, JavaScript. Creación de interfaces de usuario modernas y responsivas.</p>
-                </div>
-                <div class="skill__card card card--hover">
-                    <i class="fa-solid fa-server skill__icon"></i>
-                    <h4 class="skill__title">Desarrollo Backend</h4>
-                    <p class="skill__description">Lógica de servidor para la gestión de datos y autenticación de aplicaciones.</p>
-                </div>
-                <div class="skill__card card card--hover">
-                    <i class="fa-solid fa-database skill__icon"></i>
-                    <h4 class="skill__title">Bases de Datos</h4>
-                    <p class="skill__description">Manejo de **SQL** (PostgreSQL, MySQL) y **NoSQL** (MongoDB, etc.).</p>
-                </div>
-                <div class="skill__card card card--hover">
-                    <i class="fa-solid fa-network-wired skill__icon"></i>
-                    <h4 class="skill__title">Redes de Datos</h4>
-                    <p class="skill__description">Conocimientos técnicos certificados en configuración y gestión de redes.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="section certifications" id="certificaciones">
-            <h2 class="section__title">Certificaciones 🏅</h2>
-            <div class="container certifications__grid">
-                <div class="cert__card card card--shadow">
-                    <p class="cert__name">White Belt Certification</p>
-                    <p class="cert__issuer">IEST Anáhuac</p>
-                    <p class="cert__date">Mayo 2024</p>
-                </div>
-                <div class="cert__card card card--shadow">
-                    <p class="cert__name">Certificación Técnica en Redes de Datos</p>
-                    <p class="cert__issuer">Syscom</p>
-                    <p class="cert__date">Pendiente de fecha</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="section projects" id="proyectos">
-            <h2 class="section__title">Mis Proyectos Destacados 🚀</h2>
-            <div class="container projects__grid">
-                <div class="project__card card card--shadow">
-                    <h4 class="project__title">Gestor de Negocios Digitales</h4>
-                    <p class="project__description">Plataforma web para optimizar procesos PYME, utilizando stack MERN/MEAN.</p>
-                    <div class="project__tags">
-                        <span>#WebDev</span>
-                        <span>#Negocios</span>
-                        <span>#MongoDB</span>
+                <div class="about-card">
+                    <div class="stat-row">
+                        <i class="fas fa-graduation-cap stat-icon"></i>
+                        <div>
+                            <h4>Educación Dual</h4>
+                            <small>Ingeniería + Técnica RH</small>
+                        </div>
                     </div>
-                    <a href="#" class="project__link" target="_blank">Ver Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-                <div class="project__card card card--shadow">
-                    <h4 class="project__title">Portafolio de RR.HH.</h4>
-                    <p class="project__description">Diseño y desarrollo de un sitio estático centrado en el talento humano.</p>
-                    <div class="project__tags">
-                        <span>#Frontend</span>
-                        <span>#CSSGrid</span>
-                        <span>#PersonalBranding</span>
+                    
+                    <div class="stat-row">
+                        <i class="fas fa-star stat-icon"></i>
+                        <div>
+                            <h4>Calificación</h4>
+                            <small>Promedio = 9.0</small>
+                        </div>
                     </div>
-                    <a href="#" class="project__link" target="_blank">Ver Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <div class="stat-row">
+                        <i class="fas fa-laptop-code stat-icon"></i>
+                        <div>
+                            <h4>Enfoque</h4>
+                            <small>Web & Datos</small>
+                        </div>
+                    </div>
                 </div>
-                </div>
+            </div>
         </section>
-
-        <section class="section contact" id="contacto">
-            <h2 class="section__title">Hablemos de tu Proyecto ✉️</h2>
-            <div class="container contact__content card">
-                <p>Estoy abierta a colaborar en proyectos desafiantes en el ámbito del desarrollo web y los negocios digitales. ¡Envíame un mensaje!</p>
-                <a href="mailto:tu.correo@ejemplo.com" class="btn btn--primary btn--large">Enviar Correo</a>
+    
+        <section id="educacion">
+            <h2 class="section-title reveal"><span>Educación</span></h2>
+            <div class="grid-container reveal">
+                <div class="card">
+                    <span class="badge">Actualidad</span>
+                    <h3>Ingeniería en Sistemas y Negocios Digitales</h3>
+                    <span class="subtitle">IEST Anáhuac</span>
+                    <p class="meta"><i class="far fa-calendar-alt"></i> 2023 – Presente | 5to Semestre</p>
+                    <p>Enfoque en desarrollo de software y gestión estratégica de tecnología. <br>Participación activa en proyectos de programación.</p>
+                </div>
+                <div class="card">
+                    <span class="badge">Completado</span>
+                    <h3>Carrera Técnica en Recursos Humanos</h3>
+                    <span class="subtitle">Cbtis 103</span>
+                    <p class="meta"><i class="far fa-calendar-alt"></i> 2020 – 2023</p>
+                    <p>Formación en gestión de capital humano y administración. <br><strong>Promedio General: 9.7.</strong></p>
+                </div>
+                <div class="card">
+                    <span class="badge">Completado</span>
+                    <h3>Certificación Técnica en redes de datos</h3>
+                    <span class="subtitle">Emitido por Syscom</span>
+                    <p class="meta"><i class="far fa-calendar-alt"></i> 24 y 45 de junio del 2025</p>
+                    <p>Fundamentos de networking, cableado estructurado y configuración.<br><strong>Calificación final: 10</strong></p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="habilidades">
+            <h2 class="section-title reveal"><span>Habilidades</span></h2>
+            <div class="skills-wrapper reveal">
+                <div class="skill-pill"><i class="fas fa-code"></i> Desarrollo Frontend</div>
+                <div class="skill-pill"><i class="fas fa-database"></i> SQL</div>
+                <div class="skill-pill"><i class="fas fa-network-wired"></i> Redes de Datos</div>
+                <div class="skill-pill"><i class="fas fa-users"></i> Gestión de RH</div>
+                <div class="skill-pill"><i class="fas fa-chart-line"></i> Negocios Digitales</div>
+            </div>
+        </section>
+    
+        <section id="certificaciones">
+            <h2 class="section-title reveal"><span>Certificaciones</span></h2>
+            <div class="grid-container reveal">
+                <div class="card">
+                    <h3><i class="fas fa-certificate"></i> White Belt Certification</h3>
+                    <span class="subtitle">IEST Anáhuac</span>
+                    <p class="meta">Mayo 2024</p>
+                    <p>Metodología Lean Six Sigma para la mejora de procesos.</p>
+                </div>
+                <div class="card">
+                    <h3><i class="fas fa-ethernet"></i> Taller de Aplicación de la Inteligencia Artificial en la escritura de artículos científicos</h3>
+                    <span class="subtitle">IEST Anáhuac</span>
+                    <p class="meta">Foro de Proyecciones Empresariales 2025.</p>
+                    <p>FInvestigación aplicada sobre el uso de modelos LLM (como GPT-4) y NLP para automatizar tareas repetitivas en la documentación académica.</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="proyectos">
+            <h2 class="section-title reveal"><span>Proyectos</span></h2>
+            <div class="grid-container reveal">
+                <div class="card project-card">
+                    <h3>DOLCE | Cafetería Web</h3>
+                    <span class="subtitle">Desarrollo Frontend & Diseño UX</span>
+                    <div class="project-content">
+                        <p>Desarrollo de una página web y responsiva para una cafetería, implementando un menú interactivo y un sistema de contacto y pedidos básicos. Demostración de diseño UI/UX atractivo y optimización de velocidad para negocios digitales.</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/valemmdz/Cafeteria" target="_blank" title="Ver en GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card project-card">
+                    <h3>Sistema web de citas clínicas psicológicas</h3>
+                    <span class="subtitle">Sistema MVC (Equipo de trabajo)</span>
+                    <div class="project-content">
+                        <p>Nuestro enfoque es un SaaS: el consultorio paga una suscripción mensual fija y obtiene acceso ilimitado a todas las funciones.</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/nextwavemx" target="_blank" title="Ver en GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card project-card">
+                    <h3>Red Corporativa Simulada</h3>
+                    <span class="subtitle">Cisco Packet Tracer</span>
+                    <div class="project-content">
+                        <p>Diseño y simulación de una topología de red segura para "Magnum comunicaciones", trabajando con Orsan realizando topologia del total de la red en la ciudad de villahermosa tabasco.</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="contacto">
+            <h2 class="section-title reveal"><span>Hablemos</span></h2>
+            <div class="contact-container reveal">
+                <p>Estoy interesada en oportunidades como becaria, prácticas profesionales o proyectos de colaboración donde pueda aplicar mis habilidades técnicas y de negocios.</p>
+                
                 <div class="social-links">
-                    <a href="#" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-                    <a href="#" target="_blank" title="GitHub"><i class="fa-brands fa-github fa-2x"></i></a>
-                    </div>
+                    <a href="https://www.linkedin.com/in/valeria-salas-mendez-a90870343" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/valemmdz" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="mailto:vsalasmendez1@email.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+                
+                <a href="mailto:valeria@email.com" class="email-btn">vsalasmendez1@email.com</a>
             </div>
         </section>
-
     </main>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Valeria. Desarrollado con ❤️ y código. | Estudiante de Ingeniería en Sistemas y Negocios Digitales.</p>
-        </div>
+    <footer>
+        <p>&copy; 2025 Valeria S. Todos los derechos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
-=======
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Portafolo_vale</title>
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/unicons.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-    <!-- MAIN STYLE -->
-    <link rel="stylesheet" href="css/tooplate-style.css">
-    
-<!--
-
-Tooplate 2115 Marvel
-
-https://www.tooplate.com/view/2115-marvel
-
--->
-  </head>
-  <body>
-
-    <!-- MENU -->
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Valeria</a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link"><span data-hover="About">Yo</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#project" class="nav-link"><span data-hover="Projects">Proyectos</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#resume" class="nav-link"><span data-hover="Resume">Información</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contacto</span></a>
-                    </li>
-                </ul>
-
-                <ul class="navbar-nav ml-lg-auto">
-                    <div class="ml-lg-4">
-                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
-                        <i class="color-mode-icon"></i>
-                        Color mode
-                      </div>
-                    </div>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- ABOUT -->
-    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
-        <div class="container">
-            <div class="row">
-                
-                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
-                    <div class="about-text">
-                        <small class="small-text">Bienvenido <span class="mobile-block">a mi portfolio website!</span></small>
-                        <h1 class="animated animated-text">
-                            <span class="mr-2">Hola mundo, soy</span>
-                                <div class="animated-info">
-                                    <span class="animated-item">Técnica en redes</span>
-                                    <span class="animated-item">Diseñadora web</span>
-                                </div>
-                        </h1>
-                        <br><br>
-                        <p>Soy Valeria Salas, actualmente soy estudiante de Ingenieria en sistemas y negocios digitales.</p>
-                        
-                        <div class="custom-btn-group mt-4">
-                          <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
-                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="about-image svg">
-                        <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="svg image">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section class="project py-5" id="project">
-        <div class="container">
-                
-                <div class="row">
-                  <div class="col-lg-11 text-center mx-auto col-12">
-
-                      <div class="col-lg-8 mx-auto">
-                        <h2>Things I have designed for digital media agencies</h2>
-                      </div>
-
-                      <div class="owl-carousel owl-theme">
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/certificado.jpg" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image02.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image03.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image04.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-
-                        <div class="item">
-                          <div class="project-info">
-                            <img src="images/project/project-image05.png" class="img-fluid" alt="project image">
-                          </div>
-                        </div>
-                      </div>
-
-                  </div>
-                </div>
-        </div>
-    </section>
-
-    <!-- FEATURES -->
-    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-6 col-12">
-                  <h2 class="mb-4">Experiences</h2>
-
-                    <div class="timeline">
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2019</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>Project Manager</span><small>Best Studio</small></h3>
-                                  <p>Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.</p>
-                             </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2018</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>UX Designer</span><small>Digital Ace</small></h3>
-                                <p>Fusce rutrum augue id orci rhoncus molestie. Nunc auctor dignissim lacus vel iaculis.</p>
-                            </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2016</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>UI Freelancer</h3>
-                                <p>Sed fringilla vitae enim sit amet cursus. Sed cursus dictum tortor quis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2014</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Junior Designer<small>Crafted Co.</small></h3>
-                                <p>Cras scelerisque scelerisque condimentum. Nullam at volutpat mi. Nunc auctor ipsum eget magna consequat viverra.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-12">
-                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
-
-                    <div class="timeline">
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2017</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>Mobile Web</span><small>Master Design</small></h3>
-                                  <p>Please tell your friends about Tooplate website. That would be very helpful. We need your support.</p>
-                             </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2015</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>User Interfaces</span><small>Creative Agency</small></h3>
-                                <p><a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a> is a great website to download HTML templates without any login or email.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2013</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Artwork Design</span><small>New Art School</small></h3>
-                                <p>You can freely use Tooplate's templates for your business or personal sites. You cannot redistribute this template without a permission.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="contact py-5" id="contact">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-lg-5 mr-lg-5 col-12">
-            <div class="google-map w-100">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-
-            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
-                <div class="contact-info-item">
-                  <h3 class="mb-3 text-white">Say hello</h3>
-                  <p class="footer-text mb-0">010 020 0960</p>
-                  <p><a href="mailto:hello@company.co">hello@company.co</a></p>
-                </div>
-
-                <ul class="social-links">
-                     <li><a href="#" class="uil uil-dribbble" data-toggle="tooltip" data-placement="left" title="Dribbble"></a></li>
-                     <li><a href="#" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
-                     <li><a href="#" class="uil uil-youtube" data-toggle="tooltip" data-placement="left" title="Youtube"></a></li>
-                </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-12">
-            <div class="contact-form">
-              <h2 class="mb-4">Interested to work together? Let's talk</h2>
-
-              <form action="" method="get">
-                <div class="row">
-                  <div class="col-lg-6 col-12">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
-                  </div>
-
-                  <div class="col-lg-6 col-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
-                  </div>
-
-                  <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send Button">
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-     <footer class="footer py-5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-lg-12 col-12">                                
-                        <p class="copyright-text text-center">Copyright &copy; 2019 Company Name . All rights reserved</p>
-                        <p class="copyright-text text-center">Designed by <a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a></p>
-                    </div>
-                    
-               </div>
-          </div>
-     </footer>
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/Headroom.js"></script>
-    <script src="js/jQuery.headroom.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/custom.js"></script>
-
-  </body>
->>>>>>> 90efd8f7a08ae7a12173be7025999fc3be3b48e8
 </html>
